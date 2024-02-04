@@ -5,6 +5,8 @@ jobs:
     runs-on: macos-latest
     steps:
       - name: first-step
-        run: echo "Hello world"
+        run: echo |
+                  "Hello world"
+                  "Hello burhan"
       - name: second-step
         run: echo "Bye world"
