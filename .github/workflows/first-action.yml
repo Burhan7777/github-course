@@ -1,10 +1,10 @@
 name: first_workflow
-on:workflow_dispatch
+on: workflow_dispatch
 jobs:
   first_job:
-    runs-on:macos-latest
+    runs-on: macos-latest
     steps:
-      -name:first-step
-      run: echo "Hello world"
-      -name:second-step
-      run:echo "Goodnight"
+     - name: first-step
+       run: echo "Hello world"
+     - name: second-step 
+       run: echo "Goodnight"
